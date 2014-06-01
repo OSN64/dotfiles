@@ -1,3 +1,4 @@
-cd ..
-mv dotfiles .files 
-ln .files/.zshrc .zshrc 
+#cd ..
+#mv dotfiles .files 
+#ln .files/.zshrc .zshrc 
+#please 
