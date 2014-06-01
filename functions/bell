@@ -1,10 +1,10 @@
 # Notifies the user of the exit code of a command, good for long running commands
 bell()
 {
-	"$@"
 	SSUCCESS=~/Desktop/Script/dotfiles/functions/jobs_done.mp3
 	SERROR=~/Desktop/Script/dotfiles/functions/villagers_die.mp3
-	if [ $? == 0 ]
+	"$@"	
+	if [ $? = 0 ]
 		then
 		cvlc $SSUCCESS vlc://quit &> /dev/null
 	else 
