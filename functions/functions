@@ -4,4 +4,6 @@ source ~/.files/functions/rationalise-dot
 source ~/.files/functions/dirmk
 source ~/.files/functions/try
 source ~/.files/functions/new
+source ~/.files/functions/extract
+source ~/.files/functions/randAliases
 . /usr/bin/z.sh
